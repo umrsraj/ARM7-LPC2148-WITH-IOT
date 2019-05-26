@@ -1,0 +1,11 @@
+Dependencies for Project 'blind stick with gps & iot', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\blind stick with gps & iot.c)(0x5C00323E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ".\blind stick with gps & iot.o" --omf_browse ".\blind stick with gps & iot.crf" --depend ".\blind stick with gps & iot.d")
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (lcd.h)(0x55095D49)
+I (gpio.h)(0x5808AC46)
+I (adc0.h)(0x5808A7FC)
+I (uart1.h)(0x514CCB6A)
+I (uart0.h)(0x5114A9DA)

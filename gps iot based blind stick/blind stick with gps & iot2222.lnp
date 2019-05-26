@@ -1,0 +1,6 @@
+--cpu ARM7TDMI
+".\blind stick with gps & iot.o"
+--strict --scatter ".\blind stick with gps & iot2222.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\blind stick with gps & iot2222.map" -o ".\blind stick with gps & iot2222.axf"

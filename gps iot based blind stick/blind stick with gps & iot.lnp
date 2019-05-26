@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\blind stick with gps & iot.o"
+--strict --scatter ".\blind stick with gps & iot.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\blind stick with gps & iot.map" -o ".\blind stick with gps & iot.axf"
